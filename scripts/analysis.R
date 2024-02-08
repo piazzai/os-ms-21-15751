@@ -268,6 +268,18 @@ dataset_genres_unsd <-
 dataset_genres <-
   recode_variables_clogit(single_genres[tag_delay == 0])
 
+# save datasets
+
+write.csv(dataset_styles,
+          file = "path/to/datasets/styles.csv",
+          row.names = FALSE,
+          quote = FALSE)
+
+write.csv(dataset_genres,
+          file = "path/to/datasets/genres.csv",
+          row.names = FALSE,
+          quote = FALSE)
+
 # compute descriptives of regression variables
 
 descr_vs <- c("tagged", ivs)
