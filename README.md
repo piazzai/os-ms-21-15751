@@ -1,6 +1,6 @@
 # os-ms-21-15751
 
-This repository includes data and R code for the analysis reported in [this paper](). The analysis was based on the following public databases:
+This repository includes data and commented R code for the analysis reported in [this paper](). The analysis is based on the following publicly available data:
 
 1. **Discogs.** Data dumps are available from [discogs.com](https://data.discogs.com/). This analysis used the dump from April 1, 2020. Download it and extract it to a folder called `discogs/` within your working directory.
 2. **MusicBrainz.** Data dumps are available from [metabrainz.org](https://metabrainz.org/datasets). This analysis used the MusicBrainz PostgreSQL dump from April 11, 2020. Download it and extract it to a folder called `musicbrainz/`. The database schema is explained [here](https://musicbrainz.org/doc/MusicBrainz_Database/Schema).
