@@ -41,7 +41,7 @@ paths <-
 
 # set discogs login details (input your details)
 
-login <- list(user = "", pass = "")
+login <- list(user = "username", pass = "password")
 
 # find singles in musicbrainz dump
 
