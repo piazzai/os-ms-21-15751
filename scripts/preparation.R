@@ -33,10 +33,10 @@ clust <- ceiling(detectCores() / 2)
 
 paths <-
   list(
-    discogs = "discogs/",
-    musicbrainz = "mbdump/",
-    listenbrainz = "listens/",
-    extra = "extra/"
+    discogs = "path/to/discogs/",
+    musicbrainz = "path/to/mbdump/",
+    listenbrainz = "path/to/listens/",
+    extra = "path/to/extra/"
   )
 
 # set discogs login details (input your details)
@@ -1977,5 +1977,5 @@ save(
     "single_styles",
     "singles"
   ),
-  file = "checkpoint.RData"
+  file = "path/to/checkpoint.RData"
 )

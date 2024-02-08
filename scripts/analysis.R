@@ -16,7 +16,7 @@ clust <- ceiling(detectCores() / 2)
 
 # load data after extracting the tarball
 
-load("checkpoint.RData")
+load("path/to/checkpoint.RData")
 
 # function to report pairwise correlations
 
