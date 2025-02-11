@@ -15,5 +15,5 @@ The data used for regressions is separately distributed in CSV format and can be
 
 ## Citation
 
-Piazzai, Michele, Min Liu, and Martina Montauti (2024). Cognitive economy and product categorization. _Organization Science_, in press.  
+Michele Piazzai, Min Liu, and Martina Montauti (2024). Cognitive economy and product categorization. _Organization Science_ 35(5), 1866–1889.  
 <https://doi.org/10.1287/orsc.2021.15751>
